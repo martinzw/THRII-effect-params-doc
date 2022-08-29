@@ -27,4 +27,4 @@ With it you can use several effects divided in 5 sections:
  Most of the effects can be controlled in deep by several parameters with the Yamaha software THR_Remote.
  But there is no further information given on what exactly these parameters will do.
 
-This gist has the purpose of creating a documentation of the effect parameters.
+This reposiory has the purpose of creating a documentation of the effect parameters.
