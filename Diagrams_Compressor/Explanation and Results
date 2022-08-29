@@ -1,0 +1,45 @@
+** Diagrams for the Compressor **
+
+Method:
+
+With a function generator i created a 460Hz sine signal and fed it to the guitar input.
+I chose 460Hz because it is a normal musical frequency 
+and the compressor seems to build a high pass filter, damping lower frequencies.
+
+-All effects except compressor switched off
+-No Amp simulation  ("Flat")
+-No Cabinet simulation
+-Audio input turned low
+
+The USB-digital output connected to the PC running Audacity,
+to show a VU-Meter for the signal coming from the THR output,
+that is the compressor output .
+
+For a fixed "Level" setting of the compressor i made a row of measurements
+with input amplitude increasing from -54dB to 0dB 
+for several settings of "Sustain" setting.
+
+
+**Results:**
+-even with Level=0 and Sustain=0 the compressor modul has got some impact on the signal.
+-even with Level=100 a 0dB input signal is attenuated by 2.6dB  
+-with Sustain=100 and Level=100 a weak input signal (-54dB) is amplified by almost 30dB
+-louder signals gain much less amplification 
+-loud signals above -3dB are never amplified.
+
+**Sustain setting**
+  Weak signals are amplified by
+  + 3 dB for Sustain =  0
+  +12 dB for Sustain = 30 
+  +20 dB for Sustain = 50 
+  +27 dB for Sustain = 80
+  +30 dB for Sustain =100
+
+**Level setting**
+ Attenuates the compressor output by:
+ -36  dB  for Level= 0
+ -27  dB  for Level=30
+ - 5  dB  for Level=79
+ - 2.6dB  for Level=100
+
+
