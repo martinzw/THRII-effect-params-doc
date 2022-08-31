@@ -16,8 +16,13 @@ to show a VU-Meter for the signal coming from the THR output,
 that is the compressor output .
 
 For a fixed "Level" setting of the compressor i made a row of measurements
-with input amplitude increasing from -54dB to 0dB 
+with Input level increasing from -54dB to 0dB 
 for several settings of "Sustain" setting.
+I defined "Compressor Input level" as the level shown on the THR-output while compressor unit is disabled, 
+because in this case the compressor input signal should be directly transferred to it's output
+As no other effect- or modeling unit is active, THR-USB-output should be equal to the compressor output.
+
+As "Compressor Output level" i defined the level at the THR-output, while the compressor unit is active.
 
 
 **Results:**
