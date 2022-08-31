@@ -10,6 +10,7 @@ and the compressor seems to build a high pass filter, damping lower frequencies.
 -No Amp simulation  ("Flat")
 -No Cabinet simulation
 -Audio input turned low
+-Gain and Master to 5 (middle)
 
 The USB-digital output connected to the PC running Audacity,
 to show a VU-Meter for the signal coming from the THR output,
